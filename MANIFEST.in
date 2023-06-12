@@ -1,0 +1,7 @@
+global-exclude .DS_Store
+global-exclude *.pyc
+exclude MANIFEST.in
+exclude *.txt *.py
+include conf/*.yml
+include LICENSE.txt README.md
+include setup.py

@@ -1,0 +1,27 @@
+info:
+  title: BDCAPI
+  version: "1.0.0"
+baseurl: "https://bdc.fcc.gov/"
+verbose: false
+
+authentication:
+  username: null
+  apitoken: null
+  apitoken_file: null
+
+contacts:
+  certifier: &certification-contact
+    name: null
+    title: null
+    email: null
+    phone: null
+    extension: null
+
+common: &common
+  challenge_file_column: "challenge_id"
+  frn: null
+  certifier: *certification-contact
+
+fixed:
+  challenge: *common
+  response: *common

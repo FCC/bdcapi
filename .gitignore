@@ -1,0 +1,13 @@
+# Compiled python modules.
+*.py[cod]
+__pycache__/
+
+# Distribution / packaging
+/dist/
+MAINFEST
+
+# Python egg metadata, regenerated from source files by setuptools.
+*.egg-info/
+
+# macOS Spotlight file
+.DS_Store
